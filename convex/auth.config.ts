@@ -1,8 +1,7 @@
 const config = {
   providers: [
     {
-      // domain: "https://gorgeous-shrew-13.clerk.accounts.dev",
-      domain: "https://clerk.iaenb.com",
+      domain: "https://gorgeous-shrew-13.clerk.accounts.dev",
       applicationID: "convex",
     },
   ],
