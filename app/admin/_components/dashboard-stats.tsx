@@ -36,7 +36,7 @@ const stats = [
   },
 ];
 
-export function DashboardStats() {
+const DashboardStats = () => {
   return (
     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
       {stats.map((stat, index) => (
@@ -67,4 +67,6 @@ export function DashboardStats() {
       ))}
     </div>
   );
-}
+};
+
+export default DashboardStats;

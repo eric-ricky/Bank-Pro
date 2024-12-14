@@ -3,7 +3,7 @@
 import Logo from "@/components/logo";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { BarChart3, Bell, Users } from "lucide-react";
+import { BarChart3, Users } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -45,9 +45,9 @@ const AdminNav = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <Button variant="ghost" size="icon">
+            {/* <Button variant="ghost" size="icon">
               <Bell className="h-5 w-5" />
-            </Button>
+            </Button> */}
             <Button variant="outline" asChild>
               <Link href={"/"}>Sign Out</Link>
             </Button>

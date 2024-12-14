@@ -25,7 +25,7 @@ export function formatAccountNumber(
   groupSize: number = 4
 ): string {
   return (
-    accountNumber.match(new RegExp(`.{1,${groupSize}}`, "g"))?.join(" ") ||
+    accountNumber?.match(new RegExp(`.{1,${groupSize}}`, "g"))?.join(" ") ||
     accountNumber
   );
 }
