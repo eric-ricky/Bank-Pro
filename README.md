@@ -1,6 +1,6 @@
 # BankPro - Banking Application
 
-![BankPro Cover Image](./bankpro_1.png)
+![BankPro Cover Image](./bankpro_1.PNG)
 
 BankPro is a modern and secure banking application built using Next.js. It provides users with a seamless experience for managing their bank accounts, performing transactions, and accessing financial tools online.
 
