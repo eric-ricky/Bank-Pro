@@ -45,9 +45,6 @@ const AdminNav = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            {/* <Button variant="ghost" size="icon">
-              <Bell className="h-5 w-5" />
-            </Button> */}
             <Button variant="outline" asChild>
               <Link href={"/"}>Sign Out</Link>
             </Button>
